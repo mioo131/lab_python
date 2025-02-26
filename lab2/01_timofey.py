@@ -15,4 +15,4 @@ for word in itertools.product(a, repeat=5):
 
     k += 1
 
-print(f"количество различных кодов: {k}")
+print(f"\nколичество различных кодов: {k}")
