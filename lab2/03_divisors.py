@@ -1,5 +1,3 @@
-# tasks.py
-
 def find_divisors(n):
     """
     >>> find_divisors(6)
