@@ -13,9 +13,11 @@ sites = {
 # расстояние на координатной сетке - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 
 distances = {
-    'Moscow => London': (((550 - 510) ** 2 + (370 - 510) ** 2) ** 0.5),
-    'London => Paris': (((510 - 480) ** 2 + (510 - 480) ** 2) ** 0.5),
-    'Paris => Moscow': (((480 - 550) ** 2 + (480 - 370) ** 2) ** 0.5),
+    city1: {
+        city2: round(((x1 - x2)** 2 + (y1 - y2)**2) ** 0.5, 2)
+        for (city2, (x2, y2)) in sites.items() if city1 != city2
+    }
+    for (city1, (x1, y1)) in sites.items()
 }
 
 
