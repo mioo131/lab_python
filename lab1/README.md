@@ -6,6 +6,7 @@
 5. В репозиторий добавлены все коды и отчет.
 
 ##  Задание 00
+
 Составить словарь словарей и найти расстояние между городами.
 
 ###  Решение
@@ -27,7 +28,9 @@ distances = {
 print(distances)
 ```
 ### Скриншот
-![]()
+![img.png](Screens/img.png)
+
+---
 
 ##  Задание 01
 Нашел площадь круга, определил лежит ли точка внутри того самого круга.
@@ -47,7 +50,9 @@ print((point_2[0]**2+point_2[1]**2)**0.5<radius)
 ```
 
 ### Скриншот
-![](https://github.com/mioo131/lab_python/blob/main/lab1/Screens/Screen01)
+![img_1.png](Screens/img_1.png)![](https://github.com/mioo131/lab_python/blob/main/lab1/Screens/Screen01)
+
+---
 
 ##  Задание 02
 Расставьте знаки операций "плюс", "минус", "умножение" и скобки между числами "1 2 3 4 5" так, что бы получилось число "25".
@@ -58,7 +63,9 @@ print(((1+2)*3-4)*5)
 ```
 
 ### Скриншот
-![]()
+![img_2.png](Screens/img_2.png)![]()
+
+---
 
 ## Задание 03
 Есть строка с перечислением фильмов: 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'. 
@@ -74,10 +81,13 @@ print(my_favorite_movies[12:25])
 print(my_favorite_movies[-22:-17])
 ```
 ### Скриншот
-![]()
+![img_3.png](Screens/img_3.png)![]()
+
+---
 
 ## Задание 04
 Нужно создать список семьи и их роста, вывести рост отца и общий рост семьи.
+
 ### Решение
 ```
 my_family = ["Брат", "Бабушка", "Сестра", "Я"]
@@ -97,7 +107,9 @@ print("Общий рост моей семьи -", total_height, "см")
 ```
 
 ### Скриншот
-![]()
+![img_4.png](Screens/img_4.png)![]()
+
+---
 
 ## Задание 05
 Есть список животных в зоопарке: 'lion', 'kangaroo', 'elephant', 'monkey'. Нужно сделать:
@@ -125,17 +137,49 @@ print("Жаворонок сидит в клетке под номером ", zo
 ```
 
 ### Скриншот
-![]()
+![img_5.png](Screens/img_5.png)![]()
+
+---
 
 ## Задание 06
 Дан список песен группы Depeche Mode, распечатать общее время звучания трех песен: 'Halo', 'Enjoy the Silence', 'Clean' в формате "Три песни звучат ХХХ.ХХ минут", вывести общее время звучания других трёх песен: 'Sweetest Perfection', 'Policy of Truth', 'Blue Dress' в формате "А другие три звучат ХХХ минут"
 ### Решение
 ```
-print(((1+2)*3-4)*5)
+violator_songs_list = [
+    ['World in My Eyes', 4.86],
+    ['Sweetest Perfection', 4.43],
+    ['Personal Jesus', 4.56],
+    ['Halo', 4.9],
+    ['Waiting for the Night', 6.07],
+    ['Enjoy the Silence', 4.20],
+    ['Policy of Truth', 4.76],
+    ['Blue Dress', 4.29],
+    ['Clean', 5.83],
+]
+
+time = violator_songs_list[3][1] + violator_songs_list[5][1] + violator_songs_list[-1][1]
+print("Три песни звучат",round(time,3),"минут")
+
+violator_songs_dict = {
+    'World in My Eyes': 4.76,
+    'Sweetest Perfection': 4.43,
+    'Personal Jesus': 4.56,
+    'Halo': 4.30,
+    'Waiting for the Night': 6.07,
+    'Enjoy the Silence': 4.6,
+    'Policy of Truth': 4.88,
+    'Blue Dress': 4.18,
+    'Clean': 5.68,
+}
+
+time2 = violator_songs_dict['Sweetest Perfection'] + violator_songs_dict['Policy of Truth'] + violator_songs_dict['Blue Dress']
+print("А другие три песни звучат ",round(time2,3),"минут")
 
 ```
 ### Скриншот
-![]()
+![img_6.png](Screens/img_6.png)![]()
+
+---
 
 ## Задание 07
 Дано зашифрованное сообщение, необходимо его расшифровать и вывести на консоль
@@ -163,7 +207,9 @@ print(secret_message[3][7:13][::-1])
 print(secret_message[4][16:21][::-1])
 ```
 ### Скриншот
-![]()
+![img_7.png](Screens/img_7.png)![]()
+
+---
 
 ## Задание №9
 Даны луг и сад, необходимо узнать:
@@ -186,7 +232,9 @@ print(garden_set-meadow_set)
 print(meadow_set-garden_set)
 ```
 ### Скриншот
-![]()
+![img_8.png](Screens/img_8.png)![]()
+
+---
 
 ## Задание №10
 Дан словарь магазинов с распродажами, нужно создать словарь цен на продукты следующего вида.
@@ -215,7 +263,9 @@ sweets = {
 print(sweets)
 ```
 ### Скриншот
-![]()
+![img_9.png](Screens/img_9.png)![]()
+
+---
 
 ## Задание №11
 Дан словарь кодов товаров и словарь списка количества товаров на складе, нужно рассчитать на какую сумму лежит каждого товара на складе.
@@ -292,9 +342,9 @@ chair_quantity_total = chair_quantity_1 + chair_quantity_2 + chair_quantity_3
 print('Стул -', chair_quantity_total, 'шт, стоимость', chair_cost, 'руб')
 ```
 ### Скриншот
-![]()
+![img_10.png](Screens/img_10.png)![]()
 
-
+---
 
 ## Шпаргалка по работе с командами git
 
@@ -302,4 +352,10 @@ print('Стул -', chair_quantity_total, 'шт, стоимость', chair_cost
 2. Commit — фиксирует изменения.
 3. Push — отправляет изменения на сервер.
 4. Pull — скачивает обновления с сервера.
+
+## Источники
+
+https://doka.guide/tools/markdown/ (Справка по markdown)
+
+https://docs.python.org/3/tutorial/ (Python tutorial)
 
