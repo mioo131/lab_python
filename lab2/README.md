@@ -36,7 +36,7 @@ print(f"\nколичество различных кодов: {k}")
 
 **Результат:**
 
-![img_2.png](img_2.png)
+![img_2.png](Screens/img_2.png)
 
 ---
 
@@ -59,7 +59,7 @@ print(f"\nКоличество единиц в двоичной записи: {k
 
 **Результат:**
 
-![img_1.png](img_1.png)
+![img_1.png](Screens/img_1.png)
 
 
 ---
@@ -77,7 +77,7 @@ print(f"\nКоличество единиц в двоичной записи: {k
 
 Также добавлен доктест для проверки правильности работы функции **find_divisors**
 
-![img_3.png](img_3.png)
+![img_3.png](Screens/img_3.png)
 ```
 def find_divisors(n):
     """
@@ -111,4 +111,4 @@ for num in range(174457, 174505+1):
 **Результат:**
 
 
-![img.png](img.png)
+![img.png](Screens/img.png)
