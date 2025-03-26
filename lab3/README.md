@@ -1,7 +1,6 @@
-# Отчет по решению задач
+# Отчет по решению задач лабараторной работы № 3
 
 ## 1. Функция для подсчёта числа элементов в списках, включая вложенные списки
-
 
 **Решение:**
 
@@ -63,3 +62,14 @@ for i in range(1, n + 1):
 **Результат:**
 
 ![img.png](img.png)
+
+
+---
+
+Список используемых источников:
+
+https://skillbox.ru/media/code/spiski-v-python-chto-eto-takoe-i-kak-s-nimi-rabotat/ (списки python)
+
+https://skillbox.ru/media/code/kak-rabotaet-rekursiya-funktsii-obyasnyaem-na-primere-python/ (рекурсия функции)
+
+https://docs.python.org/3/tutorial/ (Python tutorial)
