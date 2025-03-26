@@ -23,7 +23,7 @@ def count(x):
 
 **Результат:**
 
-
+![img_1.png](img_1.png)
 
 --- 
 
@@ -62,3 +62,4 @@ for i in range(1, n + 1):
 
 **Результат:**
 
+![img.png](img.png)
