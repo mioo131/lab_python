@@ -66,7 +66,7 @@ for i in range(1, n + 1):
 
 ---
 
-Список используемых источников:
+## Список используемых источников:
 
 https://skillbox.ru/media/code/spiski-v-python-chto-eto-takoe-i-kak-s-nimi-rabotat/ (списки python)
 
