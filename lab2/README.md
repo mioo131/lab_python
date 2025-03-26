@@ -112,3 +112,11 @@ for num in range(174457, 174505+1):
 
 
 ![img.png](Screens/img.png)
+
+---
+
+## Список используемых источников:
+
+https://ru.hexlet.io/courses/advanced_python/lessons/python-doctest/theory_unit (Python: doctest)
+
+https://docs.python.org/3/tutorial/ (Python tutorial)
