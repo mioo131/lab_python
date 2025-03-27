@@ -9,7 +9,7 @@
 1. Проверяется, является ли текущий элемент вложенным списком. - вызывается функция count рекурсивно и добавляет + 1
 2. Если элемент не является списком, увеличивается общий счётчик.
 
-```
+```python
 def count(x):
     k = 0
     for item in x:
@@ -70,6 +70,6 @@ for i in range(1, n + 1):
 
 [списки python](https://skillbox.ru/media/code/spiski-v-python-chto-eto-takoe-i-kak-s-nimi-rabotat/)
 
-https://skillbox.ru/media/code/kak-rabotaet-rekursiya-funktsii-obyasnyaem-na-primere-python/ (рекурсия функции)
+[hекурсия функции](https://skillbox.ru/media/code/kak-rabotaet-rekursiya-funktsii-obyasnyaem-na-primere-python/)
 
-https://docs.python.org/3/tutorial/ (Python tutorial)
+[Python tutorial](https://docs.python.org/3/tutorial/)
