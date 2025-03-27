@@ -91,7 +91,6 @@ main()
 ```
 
 **Результат:**
-
 ![img_1.png](Screens/img_1.png)
 
 
@@ -110,6 +109,7 @@ main()
 Также добавлен доктест для проверки правильности работы функции **find_divisors**
 
 ![img_3.png](Screens/img_3.png)
+
 ```python
 def find_divisors(n):
     """
@@ -141,7 +141,6 @@ for num in range(174457, 174505+1):
 ```
 
 **Результат:**
-
 
 ![img.png](Screens/img.png)
 
