@@ -44,7 +44,7 @@ def count(x):
 
 n вводится с клавиатуры и через цикл выводит значения функции от 1 до n
 
-```
+```python
 def calc(n):
     if n == 1:
         return 1
@@ -68,7 +68,7 @@ for i in range(1, n + 1):
 
 ## Список используемых источников:
 
-https://skillbox.ru/media/code/spiski-v-python-chto-eto-takoe-i-kak-s-nimi-rabotat/ (списки python)
+[списки python](https://skillbox.ru/media/code/spiski-v-python-chto-eto-takoe-i-kak-s-nimi-rabotat/)
 
 https://skillbox.ru/media/code/kak-rabotaet-rekursiya-funktsii-obyasnyaem-na-primere-python/ (рекурсия функции)
 
