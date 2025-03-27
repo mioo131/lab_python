@@ -13,7 +13,7 @@
 2. Буква "Й" не может быть на первом или последнем месте.
 3. Буква "Й" не должна находиться рядом с буквой "И".
 
-```
+```python
 import itertools
 
 
@@ -49,7 +49,7 @@ print(f"\nколичество различных кодов: {k}")
 
  Функция `bin` преобразует в двоичную СС, а `count` подсчитывает количество единиц.
 
-```
+```python
 res = bin(4**2020 + 2**2017 - 15)
 
 k = res.count('1')
@@ -78,7 +78,7 @@ print(f"\nКоличество единиц в двоичной записи: {k
 Также добавлен доктест для проверки правильности работы функции **find_divisors**
 
 ![img_3.png](Screens/img_3.png)
-```
+```python
 def find_divisors(n):
     """
     >>> find_divisors(6)
@@ -117,6 +117,8 @@ for num in range(174457, 174505+1):
 
 ## Список используемых источников:
 
-https://ru.hexlet.io/courses/advanced_python/lessons/python-doctest/theory_unit (Python: doctest)
+[Python: doctest](https://ru.hexlet.io/courses/advanced_python/lessons/python-doctest/theory_unit)
 
-https://docs.python.org/3/tutorial/ (Python tutorial)
+[Python tutorial](https://docs.python.org/3/tutorial/)
+
+[itertools в Python](https://habr.com/ru/companies/otus/articles/529356/)
