@@ -83,4 +83,7 @@ print(calc(2))
 
 [Декораторы в python](https://sky.pro/media/chto-takoe-dekoratory-v-python/)
 
+[Декоратор на простых примерах](https://youtu.be/OowVVZHzZMc?si=pCn30rj6444xFT35)
+
 [Python tutorial](https://docs.python.org/3/tutorial/)
+
