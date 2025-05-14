@@ -68,7 +68,7 @@ def save_results(data):
             ws.cell(row=i, column=2, value=value)
         wb.save(file_path)
 
-    messagebox.showinfo("Успех", "Результаты успешно сохранены!")
+    messagebox.showinfo("Успех", "Результаты успешно сохранены")
 
 
 def calculate():
