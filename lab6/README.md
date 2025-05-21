@@ -1,6 +1,7 @@
 # Отчет по решению лабораторной работы №6
+___
 
-## 1. GUI для расчета геометрических фигур
+## GUI для расчета геометрических фигур
 
 ***Решение:***
 
@@ -31,6 +32,7 @@
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
+___
 
 ```python
 import sys
@@ -175,10 +177,12 @@ if __name__ == "__main__":
     sys.exit(app.exec())
 ```
 
-**Используемые библиотеки:**
+___
 
-1. PySide6 – для создания графического интерфейса
-2. python-docx – для сохранения данных в формате .docx
+## Список используемых источников:
 
+[Разработка Desktop приложений на Python и библиотека PySide6](https://habr.com/ru/articles/799037/)
 
+[Python-docx туториал](https://docs-python.ru/packages/modul-python-docx-python/klass-document/)
 
+[Python tutorial](https://docs.python.org/3/tutorial/)
