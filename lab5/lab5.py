@@ -1,7 +1,7 @@
 def line_generator(filename, max_len):
     with open(filename, encoding='utf-8') as f:
         for line in f:
-            line = line.rstrip('\n')  # убираем перенос строки
+            line = line.rstrip('\n')
             # разбиваем строку на куски по max_len
             for i in range(0, len(line), max_len):
                 chunk = line[i:i+max_len]
